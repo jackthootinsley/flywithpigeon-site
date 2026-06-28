@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pigeon</title>
+    <style>
+        :root {
+            --primary: #7A4FCF;
+            --secondary: #3F4A28;
+            --bg: #FAFAFA;
+            --text: #1A1A1A;
+            --text-muted: #555555;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            text-decoration: none;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--text);
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1.5rem;
+        }
+
+        .section {
+            background: white;
+            border: 1px solid #EAEAEA;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 2rem;
+            text-align: left;
+        }
+
+        .section h2 {
+            font-size: 1.2rem;
+            margin-top: 0;
+            color: var(--text);
+        }
+
+        .section p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        a.email-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a.email-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #EAEAEA;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Text Logo Placeholder -->
+        <a href="/" class="logo">🕊️ Pigeon</a>
+        
+        <div>
+            <span class="badge">Project Flyway Beta</span>
+        </div>
+        
+        <h1>Something exciting is taking flight.</h1>
+        <p>Our beta testing phase is currently underway. We're tuning our navigation, refining route safety, and preparing for takeoff on iOS and Android very soon.</p>
+
+        <!-- Account Deletion Box (App Store Compliant) -->
+        <div class="section">
+            <h2>Account Deletion Request</h2>
+            <p>If you are a beta tester and wish to delete your account and all associated data, please send an email request to <a href="mailto:hello@flywithpigeon.com" class="email-link">hello@flywithpigeon.com</a>. Please include your registered email address or username. Requests are processed within 72 hours.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Flywithpigeon Ltd. All rights reserved.</p>
+        <p>
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms & Conditions</a>
+        </p>
+    </footer>
+
+</body>
+</html>
